@@ -1,0 +1,35 @@
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Migrations (optional — keep if shared DB structure)
+# movies/migrations/
+# */migrations/
+
+# OS Trash
+.Trashes
+ehthumbs.db
+Thumbs.db
