@@ -1,19 +1,90 @@
-# Movie Store Project with Django MVT Structure
+# 🎬 Movie Store — Full Stack Django Application
 
-### Project Outline
-1. The Home page will feature a welcoming message.
-2. The About page will provide details about the Movies Store.
-3. The Movies page will exhibit information on available movies and include a filter to search movies by name. Additionally, users can click on a specific movie to view its details and post reviews.
-4. The Cart page will showcase the movies added to the cart, along with the total price to be paid. Users can also remove movies from the cart and proceed with purchases.
-5. The Register page will present a form enabling users to sign up for accounts.
-6. The Login page will present a form allowing users to log in to the application.
-7. The Orders page will display the orders placed by the logged-in user.
-8. The Admin panel will encompass sections to manage the store’s information, including creating, updating, deleting, and listing information.
+A full-stack **Movie Store web application** built using **Python (Django)** and **Bootstrap**.  
+It allows users to browse movies, view details, add them to cart, and place orders — with user authentication, session-based cart management, and responsive UI design.
+
+---
+
+## 🚀 Features
+
+- 🎥 **Movie Listings:** Browse available movies with dynamic images and details  
+- 🛒 **Shopping Cart:** Add movies, manage quantities, and view cart summary  
+- 👤 **User Authentication:** Signup, login, and logout using Django’s built-in auth system  
+- 🧾 **Order Management:** Simple flow for simulating movie purchase  
+- 📱 **Responsive Design:** Built with Bootstrap for smooth UX across devices  
+- ⚡ **Pagination & Query Optimization:** Efficient movie listing with scalable backend structure  
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| **Backend** | Python, Django |
+| **Frontend** | HTML5, CSS3, Bootstrap |
+| **Database** | SQLite |
+| **Session & Auth** | Django built-in session framework |
+| **Deployment** | PythonAnywhere |
+| **Version Control** | Git, GitHub |
+
+---
+
+## 📂 Project Structure
+```
+Movie-Store/
+├── accounts/ # Authentication views and templates
+├── cart/ # Cart management logic
+├── home/ # Homepage and static content
+├── movies/ # Movie models, views, templates
+├── moviesstore/ # Project settings, URLs, static and base templates
+├── media/ # Uploaded movie images
+├── staticfiles/ # Collected static files for production
+├── db.sqlite3 # Database file
+└── manage.py # Django management script
+```
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Aditya-1998k/Movie-Store.git
+cd Movie-Store
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+```
+
+Now visit 👉 [http://127.0.0.1:8000/movies/](http://127.0.0.1:8000/movies/  
+Live Demo: [pythonanywhere](https://gaditya.pythonanywhere.com/movies/)  
+
+## Key Learning Highlights
+
+- Working with **Django Models, Views, Templates (MVT)** pattern  
+- Using **Django sessions** to manage cart and user state  
+- Handling **user authentication and form validation**  
+- Managing **static and media files** (with `collectstatic` and Pillow image handling)  
+- Deploying Django apps on **PythonAnywhere**  
 
 
-### Movie Store Class Diagram
-<img width="1210" height="680" alt="image" src="https://github.com/user-attachments/assets/7ee56e3b-e4a6-4ce0-a10b-b4cb89d7a1bd" />
+Model Class Diagram
+---
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/081c41f2-27a7-49f5-bd4b-18dd7eb90c02" />
+
+MVT Architecture
+------
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/570de012-21e4-4ca9-bcd2-dea023e7dba6" />
 
 
-### MVT Structure
-<img width="1627" height="1266" alt="image" src="https://github.com/user-attachments/assets/7d363843-be2e-4184-a703-d41b314d1e8e" />
+
+---
+
+## Author
+
+**Aditya Gupta**  
+[aditya98gupta@gmail.com](mailto:aditya98gupta@gmail.com)  
+[LinkedIn](https://www.linkedin.com/in/aditya-gupta1998)  
+[GitHub](https://github.com/Aditya-1998k)  
+
