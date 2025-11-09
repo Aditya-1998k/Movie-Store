@@ -21,7 +21,7 @@ It allows users to browse movies, view details, add them to cart, and place orde
 | Category | Technologies |
 |-----------|--------------|
 | **Backend** | Python, Django |
-| **Frontend** | HTML5, CSS3, Bootstrap |
+| **Frontend** | HTML, CSS, Bootstrap, DTL |
 | **Database** | SQLite |
 | **Session & Auth** | Django built-in session framework |
 | **Deployment** | PythonAnywhere |
