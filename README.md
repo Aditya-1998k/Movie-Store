@@ -57,7 +57,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-Now visit 👉 [http://127.0.0.1:8000/movies/](http://127.0.0.1:8000/movies/  
+Now visit 👉 [http://127.0.0.1:8000/movies/](http://127.0.0.1:8000/movies/)
 Live Demo: [pythonanywhere](https://gaditya.pythonanywhere.com/movies/)  
 
 ## Key Learning Highlights
